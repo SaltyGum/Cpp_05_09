@@ -1,9 +1,9 @@
-NAME	= convert
+NAME	= MergeMe
 
-CC		= g++
+CC		= c++
 CFLAGS	= -Werror -Wextra -Wall -std=c++98
 
-SRC		= ScalarConverter.cpp \
+SRC		=	PmergeMe.cpp \
 			main.cpp
 
 OBJ		= $(SRC:.cpp=.o)

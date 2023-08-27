@@ -1,9 +1,9 @@
-NAME	= convert
+NAME	= bitcoin
 
-CC		= g++
+CC		= c++
 CFLAGS	= -Werror -Wextra -Wall -std=c++98
 
-SRC		= ScalarConverter.cpp \
+SRC		=	BitcoinExchange.cpp	\
 			main.cpp
 
 OBJ		= $(SRC:.cpp=.o)

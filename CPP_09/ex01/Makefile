@@ -1,9 +1,9 @@
-NAME	= convert
+NAME	= RPN
 
-CC		= g++
+CC		= c++
 CFLAGS	= -Werror -Wextra -Wall -std=c++98
 
-SRC		= ScalarConverter.cpp \
+SRC		=	RPN.cpp \
 			main.cpp
 
 OBJ		= $(SRC:.cpp=.o)
